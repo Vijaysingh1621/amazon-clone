@@ -1,0 +1,245 @@
+*{
+margin: 0px;
+font-family:arial;
+border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items: center;
+
+}
+.logo{
+     background-image: url(amazon_logo.png);
+     background-size: cover;
+     border:3px solid transparent;
+     height: 50px;
+     width:100px;
+}
+.logo:hover{
+    border:1.2px solid white;
+
+}
+.firstAD{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.secondAD{
+    color:#ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.address:hover{
+    border:1.2px solid white
+
+}
+.nav-search{
+    margin-left: 20px;
+    display:flex;
+    width: 625px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+    }
+.searchplace{
+    width:528px;
+    border:none;
+    font-size: 1rem;
+}
+.alls{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width:48px;
+    text-align: center;
+    border:none;
+    background-color:#f3f3f3;
+
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 155, 31, 0.964);
+    width:45px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.signIn{
+    margin-left: 20px;
+    font-size: 0.75rem;
+}
+.sign{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.signIn:hover{
+    border:1.2px solid white;
+}
+.orderIn{
+    margin-left: 20px;
+    font-size:0.75rem;
+}
+.order{
+    font-weight: 500px;
+    font-size: 1rem;
+}
+.orderIn:hover{
+    border:1.2px solid white;
+}
+.cart i{
+    margin-left: 20px;
+    
+    font-size: 30px;
+}
+.cart{
+    font-size: 1.3rem;
+    font-weight: 700rem;
+}
+.cart:hover{
+    border:1.2px solid white;
+}
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+}
+.items{
+  display: flex;
+  width:80%;
+  
+}
+.items p{
+    margin-left:20px;
+    font-size: 0.85rem;
+}
+.end{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.mainImage{
+    background-image: url(amazonGame.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.amzoneIn{
+    background-color: white;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:85%;
+    margin-bottom: 50px;
+}
+     
+.amzoneIn a {
+    color: #007185;
+}
+.shop-section{
+    display:flex;
+    background-color: rgb(190, 190, 190);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 400px;
+    width: 325px;
+    background-color: white;
+     margin-top: 15px;  
+}
+.boxImage{
+    height: 300px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+}
+.title{
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+.show{
+    margin-left: 20px;
+    color:#007185
+}
+.Last-pannel1{
+    background-color: #37475a;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 15px;
+}
+.Last-pannel2{
+    height: 350px;
+    background-color: #222f3e;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    display:flex;
+    flex-direction: column;
+    margin-top: 25px;
+    color:white;
+    font-weight: 600;
+    
+}
+ul a{
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color:#DDDDDD;
+    font-weight: 300;
+}
+.Last-pannel3{
+    height: 100px;
+    background-color: #222f3e;
+    border-top: 0.6px solid #486485;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Last-pannel4{
+    height: 80px;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.over{
+    margin-top: 2px;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+    
+
+
